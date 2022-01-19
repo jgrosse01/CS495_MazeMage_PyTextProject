@@ -1,0 +1,3 @@
+# RoomNumber;Title;numSkeletons;numSpecters;numAtronachs;numberItems;numberSpells;keyTF;exitTF;chanceToSpawnRoom;roomDescription
+1;Spawn Room;0;0;0;0;1;F;F;1;You wake up dazed and confused. You find yourself in a dim, torch-lit, brick room with 2 doors containing nothing but a rustic looking piece of paper. You walk over to it, pick it up, and read it. You feel a surge of power.
+2;Exit Room;0;0;0;0;0;F;T;

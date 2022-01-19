@@ -1,0 +1,14 @@
+Welcome to the Maze Mage help menu!
+  This is a game where you play as a newfound mage discovering their power while trapped in a maze. Your goal is to defeat enemies, find items/spells, and acquire the key to get out of the maze from the exit room.
+  There are three types of enemies in this game, Skeletons, Specters, and Atronachs. You must refer to them accordingly when casting spells.
+  There are three types of items in this game, Keys, which will be quite rare, MP Flasks to improve your maximum mana and mana regen, and HP Flasks to improve your HP regen.
+  You will have an inventory to store items in limitless quantities; therefore, you must actively use the items in your inventory to acquire their benefits.
+The commands for Maze Mage are as follows:
+  help                              shows this menu
+  repeat                            reiterates the initial room description
+  list inventory|spells             shows entities contained in the specified container
+  acquire item|scroll               picks up an existing item or spell from the room you are in
+  move f|l|r|b                      moves the player to the next room in a given direction
+  cast <spell name> <enemy type>    casts an acquired spell on a certain type of enemy in the current room
+  describe <spell name>             gives details on a specific spell that you possess
+  use <item name>                   uses an existing item from the player inventory
