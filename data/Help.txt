@@ -8,6 +8,7 @@ The commands for Maze Mage are as follows:
   repeat                            reiterates the initial room description
   list inventory|spells             shows entities contained in the specified container
   acquire item|scroll               picks up an existing item or spell from the room you are in
+  turn l|r                          changes the direction the player is facing (does not change room description)
   move f|l|r|b                      moves the player to the next room in a given direction
   cast <spell name> <enemy type>    casts an acquired spell on a certain type of enemy in the current room
   describe <spell name>             gives details on a specific spell that you possess
