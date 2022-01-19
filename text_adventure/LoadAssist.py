@@ -38,3 +38,11 @@ def load_spells(num_spell):
 
 def num_spells(max_num_of_room):
     pass
+
+
+def load_items(num_item):
+    pass
+
+
+def num_items(max_num_of_room):
+    pass

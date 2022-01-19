@@ -13,4 +13,5 @@ The commands for Maze Mage are as follows:
   cast <spell name> <enemy type>    casts an acquired spell on a certain type of enemy in the current room
   describe <spell name>             gives details on a specific spell that you possess
   use <item name>                   uses an existing item from the player inventory
+  escape                            uses a held key to unlock the escape hatch in the maze
   exit                              leaves the game (note the game does not save)

@@ -27,7 +27,10 @@ def get_input(string):
 
 # actually interprets actions and such
 def process_input(string):
-    pass
+    temp_string = string
+    if temp_string == "help":
+        print(helpString)
+
 
 
 # displays the current hp and mp as well as the room status
