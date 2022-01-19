@@ -1,3 +1,4 @@
-# RoomNumber;Title;numSkeletons;numSpecters;numAtronachs;numberItems;numberSpells;keyTF;exitTF;chanceToSpawnRoom;roomDescription
+# RoomNumber;Title;maxNumSkeletons;maxNumSpecters;maxNumAtronachs;maxNumberItems;maxNumberSpells;canKey01;exit01;chanceToSpawnRoom;roomDescription
 1;Spawn Room;0;0;0;0;1;F;F;1;You wake up dazed and confused. You find yourself in a dim, torch-lit, brick room with 2 doors containing nothing but a rustic looking piece of paper. You walk over to it, pick it up, and read it. You feel a surge of power.
-2;Exit Room;0;0;0;0;0;F;T;
+2;Exit Room;0;0;0;0;0;0;1;1;You have come across a room with a locked hatch in the ceiling and a ladder leading up to it. Nothing else appears to be in the room.
+TBD;Passthrough Room;3;2;0;0;0;F;F;1;You find yourself in a room with four doors.
