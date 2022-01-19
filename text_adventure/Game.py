@@ -2,14 +2,14 @@ playerClasses = ["fire", "ice", "lightning"]    # ICE AND LIGHTNING NOT YET IMPL
 classImplemented = [True, False, False]         # for easy checking and loading regarding unimplemented classes of mage
 
 availableRooms = []
-GameMap = [9][9]
+#GameMap = [9][9]
 # Location in the map by grid coordinates
-playerLocation = (0,0)
+#playerLocation = (0,0)
 # Cardinal Direction facing, 0 = N, 1 = E, 2 = S, 3 = W
 playerOrientation = 1
 
-helpString = ""
-textArt = ""
+global helpString
+global textArt
 
 
 # forces input to be lower case, ease of use by the programmer
@@ -33,8 +33,18 @@ def loadHelpString():
 
 
 def loadTextArt():
-    pass
+    temp_string = ""
+    file = open("../data/TextArt.txt")
+    lines = file.readlines()
+    for line in lines:
+        temp_string = temp_string + line
+    return temp_string
 
 
 if __name__ == '__main__':
-    global helpString, GameMap, playerClasses, classImplemented
+    textArt = loadTextArt()
+    print(textArt)
+    input()
+    
+
+

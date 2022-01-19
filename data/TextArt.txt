@@ -9,6 +9,8 @@ $$ | \_/ $$ |\$$$$$$$ |$$$$$$$$\ \$$$$$$$\       $$ | \_/ $$ |\$$$$$$$ |\$$$$$$$
                                                                         $$\   $$ |
                                                                         \$$$$$$  |
                                                                          \______/
-                               A Text Adventure By Jake Grosse
-                                 Started development 1/18/22
-                                      Version 0.10 Beta
+                           A Text Adventure By Jake Grosse
+                             Started development 1/18/22
+                                  Version 0.10 Beta
+
+                             Press <Enter> to Continue:
