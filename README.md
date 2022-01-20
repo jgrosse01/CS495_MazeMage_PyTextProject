@@ -6,8 +6,8 @@ The minimum for a grade of "C" or meeting the bare minimum requirement to make a
 
 To get a better score than that the requirements are as follows:
 1. Code the following (or something more complex for a better grade): print("Hello World!")
-2. Writing 100% of the code without help or outside resources.
-3. Code runs without error and give expected results.
+2. 100% of the code is written by myself without help or outside resources.
+3. Code runs without error and gives expected results.
 4. Invalid user inputs are handled properly and there are no unhandled exceptions.
 5. Code is formatted nicely.
 6. Any sources are cited.
