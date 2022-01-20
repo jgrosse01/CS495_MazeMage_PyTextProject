@@ -11,6 +11,6 @@
                                                                          \______/
                            A Text Adventure By Jake Grosse
                              Started development 1/18/22
-                                  Version 0.10 Beta
+                                  Version 0.1 Alpha
 
                              Press <Enter> to Continue:
