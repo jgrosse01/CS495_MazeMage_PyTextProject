@@ -99,6 +99,7 @@ def process_input(string):
                 print("You do not have enough mana to heal.\n")
         # respond to describe input
         elif temp_string.split()[0] == "describe":
+            # if they specify one word with the command
             if len(temp_string.split()) == 2:
                 if spellDict[temp_string.split()[1]] is None:
                     print("That spell does not exist in this realm of the ethereal plane.\n")
@@ -106,8 +107,10 @@ def process_input(string):
                     # done for aesthetic reasons to get a capital first letter of the spell
                     print(f"{temp_string.split()[1][0:1].upper()}{temp_string.split()[1][1:]}. "
                           f"{spellDict[temp_string.split()[1]]}\n")
+            # if there is more than one word with the command it is invalid
             elif len(temp_string.split()) > 2:
                 print("Spell names are written as one word.\n")
+            # otherwise, the command is invalid because it does not have a spell attached to it and is just the keyword
             else:
                 print("Please select a spell to describe.\n")
         # respond to use input
