@@ -54,19 +54,25 @@ def process_input(string):
             player.print_stats()
         # respond to list input
         elif temp_string.split()[0] == "list":
-            # list inventory
-            if temp_string.split()[1] == "inventory":
-                if player.get_inventory_size() == 0:
-                    print("Your inventory is empty.\n")
+            # check to make sure there is another word to access
+            if len(temp_string.split()) > 1:
+                # list inventory
+                if temp_string.split()[1] == "inventory":
+                    if player.get_inventory_size() == 0:
+                        print("Your inventory is empty.\n")
+                    else:
+                        player.list_items()
+                # list spells
+                elif temp_string.split()[1] == "spells":
+                    if player.get_spellbook_size() == 0:
+                        print("You have no spells in your spellbook! "
+                              "\nThere is a starter spell on the ground in the spawn room.\n")
+                    else:
+                        player.list_spells()
                 else:
-                    player.list_items()
-            # list spells
-            elif temp_string.split()[1] == "spells":
-                if player.get_spellbook_size() == 0:
-                    print("You have no spells in your spellbook! "
-                          "\nThere is a starter spell on the ground in the spawn room.\n")
-                else:
-                    player.list_spells()
+                    print("Please select a container.\n")
+            else:
+                print("Please either specify your magic bag (inventory) or spellbook (spells).\n")
         # respond to acquire input
         elif temp_string.split()[0] == "acquire":
             print("Feature not yet implemented\n")
@@ -93,12 +99,17 @@ def process_input(string):
                 print("You do not have enough mana to heal.\n")
         # respond to describe input
         elif temp_string.split()[0] == "describe":
-            if spellDict[temp_string.split()[1]] is None:
-                print("That spell does not exist in this realm of the ethereal plane.\n")
+            if len(temp_string.split()) == 2:
+                if spellDict[temp_string.split()[1]] is None:
+                    print("That spell does not exist in this realm of the ethereal plane.\n")
+                else:
+                    # done for aesthetic reasons to get a capital first letter of the spell
+                    print(f"{temp_string.split()[1][0:1].upper()}{temp_string.split()[1][1:]}. "
+                          f"{spellDict[temp_string.split()[1]]}\n")
+            elif len(temp_string.split()) > 2:
+                print("Spell names are written as one word.\n")
             else:
-                # done for aesthetic reasons to get a capital first letter of the spell
-                print(f"{temp_string.split()[1][0:1].upper()}{temp_string.split()[1][1:]}. "
-                      f"{spellDict[temp_string.split()[1]]}\n")
+                print("Please select a spell to describe.\n")
         # respond to use input
         elif temp_string.split()[0] == "use":
             print("Feature not yet implemented\n")
