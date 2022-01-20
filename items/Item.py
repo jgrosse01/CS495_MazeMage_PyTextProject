@@ -1,13 +1,7 @@
-# class to manage items in the inventory
-
-name = None
-
-
-def get_name():
-    return name
-
-
+# class to manage items in the inventory NYI
 class Item:
     def __init__(self, item_name):
-        global name
-        name = item_name
+        self.name = item_name
+
+    def get_name(self):
+        return self.name

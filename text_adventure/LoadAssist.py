@@ -1,4 +1,4 @@
-# File used to clean up the loading process for individual entities in the map
+# File used to clean up the loading process for individual entities in the map NYI
 
 def load_skeletons(num_skele):
     pass

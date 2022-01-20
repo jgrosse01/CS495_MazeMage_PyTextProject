@@ -1,0 +1,4 @@
+# SpellType;SpellDamage;ManaCost;SpellName;SpellDesc
+fire;8;4;Firebolt;A modest spell of the novice pyromancer. Does low damage for low mana cost. Nothing special.
+fire;16;12;Sunray;An incantation only an adept pyromancer may perform. The wielder channels the power of the sun from this maze far below the surface to unleash its energy on their foes. Medium damage and slightly more than proportional mana cost.
+fire;32;36;Infernostorm;Only the most skilled pyromancers are able to harness the energy required for this onslaught of flame. The user channels their own soul energy only to unleash it in a massive rushing forth of flame. High damage and significantly higher than proportional mana cost.

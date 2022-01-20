@@ -1,16 +1,11 @@
-color = None
-number = -1
-
-
 # NOT YET IMPLEMENTED
 class Key:
-    def __init__(self, keyColor, doorNumber):
-        global color, number
-        color = keyColor
-        number = doorNumber
+    def __init__(self, key_color, door_number):
+        self.color = key_color
+        self.number = door_number
 
-    def checkColor(self, compareColor):
-        return compareColor == color
+    def check_color(self, compare_color):
+        return compare_color == self.color
 
-    def checkNumber(self, compareNumber):
-        return compareNumber == number
+    def check_number(self, compare_number):
+        return compare_number == self.number
