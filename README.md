@@ -24,3 +24,5 @@ As it currently stands (Thursday, January 20th, 2022 @ 1:29 AM) the game has a l
 This means that most of the functionality of the game does not work at the current moment, including casting spells, generating the world, loading individual maze rooms from a data file, spawning items, spell scrolls, and enemies, movement, damage, and win or loss conditions.
 
 As it stands, the project more than suffices for the task of "making a text-based python program."
+
+This is not compiled into a single packaged executable right now. The file which contains the main method is "Game.py" located in the "text_adventure" package.
